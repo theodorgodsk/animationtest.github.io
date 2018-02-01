@@ -1,0 +1,71 @@
+/**
+ * file: style.css
+ * purpose: effects ...
+ **/
+
+/* animations kode */
+@keyframes example   {
+     0%   {background-color: red;}
+    25%  {background-color: yellow;}
+    50%  {background-color: blue;}
+    100% {background-color: green;}
+}
+
+
+
+body {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation-name: example;
+    animation-duration: 10s;
+}
+
+
+#billede{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: relative;
+    -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+    animation-name: example;
+    animation-duration: 4s;
+}
+
+
+body {
+	background-color: grey;
+}
+
+article {
+	width: 26rem;
+}
+
+h1 {
+font-size: 50rem;
+    color: brown;
+    
+}
+
+#first {
+	width: 10rem;
+    margin-left: 3rem;
+}
+
+#anden {
+    margin-left: 3rem;
+}
+
+#tredje {
+    margin-left: 3rem;
+}
+
+#fjerde {
+    margin-left: 3rem;
+}
+
+p {
+    color: white
+}
+
